@@ -1,0 +1,39 @@
+name: Bild
+label: "{{ image.0.filename }}"
+tabs:
+  content:
+    label: Bild
+    icon: image
+    fields:
+      image:
+        label: Bild
+        type: files
+        uploads:
+          parent: site
+        query: site.files
+        max: 1
+      alt:
+        label: Beschreibung
+        help: Alt-Attribute
+        type: text
+        width: 1/2
+      title:
+        label: Titel
+        help: Title-Attribute
+        type: text
+        width: 1/2
+      imageScale:
+        label: Bildgröße
+        type: select
+        default: center
+        options:
+          fit: Standard
+          fill: Füllen
+          shrink: Klein
+  settings:
+    label: Einstellungen
+    icon: settings
+    fields:
+      class:
+        label: CSS-Klasse
+        type: text

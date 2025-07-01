@@ -1,0 +1,24 @@
+name: HTML
+label: "{{ text }}"
+tabs:
+  content:
+    label: HTML
+    icon: text
+    fields:
+      headline:
+        label: Beschreibung
+        type: text
+        help: Diese Beschreibung wird nur intern angezeigt
+      text:
+        label: HTML-Code
+        type: textarea
+        buttons: false
+        size: medium
+  settings:
+    label: Einstellungen
+    icon: settings
+    fields:
+      class:
+        label: CSS-Klasse
+        type: text
+        width: 1/2

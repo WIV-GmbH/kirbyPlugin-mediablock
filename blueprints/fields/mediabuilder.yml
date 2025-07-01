@@ -1,0 +1,9 @@
+type: blocks
+label: Inhalte
+fieldsets:
+  - mediahtml
+  - mediaimage
+  - map
+  # - mediaiframe
+  # - mediayoutube
+  # - mediaslider

@@ -1,0 +1,43 @@
+name: Medien
+label: " {{ mediabuilder.0.content.image.0.filename }} "
+tabs:
+  medien:
+    label: Medien
+    icon: file
+    fields:
+      mediabuilder: fields/mediabuilder
+  settings:
+    label: Einstellungen
+    icon: settings
+    fields:
+      alignSelf:
+        label: Bildausrichtung Vertikal
+        type: select
+        width: 1/3
+        default: center
+        options:
+          start: Oben
+          center: Zentriert
+          end: Unten
+      justifyContent:
+        label: Bildausrichtung Horizontal 
+        type: select
+        width: 1/3
+        default: center
+        options:
+          start: Links 
+          center: Zentriert
+          end: Rechts
+      backgroundcolor:
+        label: Hintergrundfarbe
+        type: select
+        width: 1/3
+        default: bg-none
+        options:
+          bg-none: Keine
+          bg-primary: Primäre Farbe
+          bg-secondary: Sekundäre Farbe
+      class:
+        label: CSS-Klasse
+        width: 1/3
+        type: text
