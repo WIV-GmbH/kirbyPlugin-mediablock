@@ -5,5 +5,5 @@ fieldsets:
   - mediaimage
   - map
   # - mediaiframe
-  # - mediayoutube
+  - mediayoutube
   # - mediaslider
