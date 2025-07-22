@@ -6,6 +6,8 @@
 ?>
 
 <div class="wrapper-mediayoutube">
+  <<?= $data->headlineSize() ?>><?= $data->headline() ?></<?= $data->headlineSize() ?>>
+  <div class="iframe-wrapper">
     <iframe
       class="lazy"
       data-src="https://www.youtube-nocookie.com/embed/<?= $youtubeID ?>"
@@ -13,5 +15,6 @@
       height="auto"
       allowfullscreen
     ></iframe>
+  </div>
 </div>
   

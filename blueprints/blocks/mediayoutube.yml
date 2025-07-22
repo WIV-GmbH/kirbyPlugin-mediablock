@@ -5,6 +5,22 @@ tabs:
     label: Youtube-Video
     icon: text
     fields:
+      headline:
+        label: Überschrift
+        type: text
+        width: 3/4
+      headlineSize:
+        label: Größe
+        type: select
+        width: 1/4
+        default: h2
+        options:
+          h1: H1
+          h2: H2
+          h3: H3
+          h4: H4
+          h5: H5
+          h6: H6
       youtubelink:
         label: Youtube-Video-Link
         type: text
